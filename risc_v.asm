@@ -1886,7 +1886,7 @@ addi x11,x11,1
 addi x5,x5,8
 jal x0,inner_loop
 end_inner:
-addi x9,x9,1
+/addi x9,x9,1
 jal x0,outer_loop
 end_out:
 nop
